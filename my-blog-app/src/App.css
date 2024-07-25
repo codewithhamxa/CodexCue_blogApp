@@ -1,0 +1,58 @@
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app {
+  width: 70%;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: aliceblue;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.blog-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.blog-post {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.blog-post h2 {
+  margin-top: 0;
+}
+
+.blog-post p {
+  margin-bottom: 20px;
+}
+
+header{
+  text-align: center;
+  background-color: aliceblue;
+  padding: 1rem;
+  border-bottom: 2px solid #ddd;
+}
+h2{
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  border: 2px solid black;
+  padding: 5px 15px;
+  
+}
